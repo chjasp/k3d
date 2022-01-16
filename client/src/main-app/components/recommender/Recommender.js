@@ -84,7 +84,7 @@ const Recommender = ({ setHighlight, setOpenModal }) => {
           dislikes: dislikedProducts,
         };
 
-        let respL = await fetch("http://localhost:8000/getnext/", {
+        let respL = await fetch("https://krea-3iudqfigrq-ey.a.run.app/getnext/", {
           method: "POST",
           body: JSON.stringify(modelL),
         });
@@ -106,7 +106,7 @@ const Recommender = ({ setHighlight, setOpenModal }) => {
           dislikes: dislikedProducts,
         };
 
-        let respSL = await fetch("http://localhost:8000/getnext/", {
+        let respSL = await fetch("https://krea-3iudqfigrq-ey.a.run.app/getnext/", {
           method: "POST",
           body: JSON.stringify(modelSL),
         });
@@ -128,7 +128,7 @@ const Recommender = ({ setHighlight, setOpenModal }) => {
           dislikes: tmp_dislikes,
         };
 
-        let respDL = await fetch("http://localhost:8000/getnext/", {
+        let respDL = await fetch("https://krea-3iudqfigrq-ey.a.run.app/getnext/", {
           method: "POST",
           body: JSON.stringify(modelDL),
         });

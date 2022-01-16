@@ -25,8 +25,6 @@ SECRET_KEY = 'v_43uij6cv^hz$%etya)(8%)fuoj*ort4nb-b9dx)$e9*%0_)a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -124,3 +122,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_ALLOW_ALL = True
+ALLOWED_HOSTS = ['krea-3iudqfigrq-ey.a.run.app']

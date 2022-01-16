@@ -42,7 +42,7 @@ const Bottom = ({
     const uploadData = new FormData();
     uploadData.append("id", currentId);
 
-    let resp = await fetch("http://localhost:8000/closestfive/", {
+    let resp = await fetch("https://krea-3iudqfigrq-ey.a.run.app/closestfive/", {
       method: "POST",
       body: uploadData,
     });
