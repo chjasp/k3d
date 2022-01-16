@@ -1,0 +1,79 @@
+button {
+  border: none;
+}
+
+.btn-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  position: relative;
+
+}
+
+.superlike {
+  height: 7vh;
+  width: 7vh;
+
+  margin-top: 0.8rem;
+  border-radius: 50%;
+  background: linear-gradient(-90deg, #FC3A81 0.84%, #3CA5EF 100.67%);
+  box-shadow: #9B13C9 0px 7px 20px -8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  font-size: 3.5vh;
+  color: #fff;
+}
+
+.like {
+  height: 7vh;
+  width: 7vh;
+  box-shadow: #FC3A81 0px 7px 20px -8px;
+
+  margin-top: 0.8rem;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  margin-top: 0.5vh;
+  font-size: 3.5vh;
+  color: #FC3A81;
+}
+
+.dislike {
+  height: 7vh;
+  width: 7vh;
+  box-shadow: rgb(47, 149, 193) 0px 7px 20px -8px;
+
+  margin-top: 0.8rem;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross {
+  font-size: 3.5vh;
+  color: rgba(44, 189, 245, 1);
+}
